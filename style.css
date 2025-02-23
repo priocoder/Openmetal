@@ -1,0 +1,431 @@
+/*-- Initial setup --*/
+a:hover {
+	text-decoration: none;
+}
+.primary-color {
+	color: #3AC7A3;
+} 
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+/*-- Header section --*/
+.header-area{
+	font-family: italic;
+	background-color: #2477B4;
+}
+.header-area span{
+	color: silver;
+	display: block;
+	margin: 0 auto;
+	padding: 5px 0;
+}
+.header-area span a{
+	color: #fff;
+	padding: 0 5px;
+	font-family: italic;
+}
+/*-- Navbar section --*/
+.navbar{
+	padding: 0;
+	font-family: italic;
+	border-bottom: 1px solid #ddd;
+}
+.navbar .container a{
+	color: #000;
+}
+.navbar .container
+a img{
+	width: 50px;
+}
+.navbar-nav .nav-item .nav-link{
+	color: #fff;
+	padding: 5px 20px;
+	text-align: center;
+	border-radius: 50px;
+	background: linear-gradient(90deg, #3AC7A3, #0074E8);
+
+}
+.navbar .bi-list {
+	color: #37C3A6;
+	padding: 0 5px;
+	font-size: 25px;
+	border-radius: 4px;
+	border: 1px solid #37C3A6;
+}
+/*-- Landing section --*/
+.landing-section{
+
+}
+.landing-section
+.heading-section{
+	padding-top: 30%;
+}
+.landing-section
+.heading-section p{
+	color: #000;
+	font-size: 32px;
+	font-weight: 600;
+	font-family: 'Nova Square', sans-serif;
+}
+.landing-section
+.heading-section p span{
+	padding: 0 5px;
+}
+.landing-section
+.pra-section{
+	color: silver;
+}
+.landing-section
+.link-section{
+	padding-top: 10%;
+}
+.landing-section
+a {
+	color: #FFF;
+}
+
+.landing-section
+.link-section
+.btn-left {
+	border: none;
+	padding: 5px 20px;
+	margin-right: 5px;
+	border-radius: 5px;
+	display: inline-block;
+	background: linear-gradient(90deg, #37C3A6, #5692CE);
+}
+.landing-section
+.link-section
+.btn-right {
+	border: none;
+	padding: 5px 20px;
+	margin-right: 5px;
+	border-radius: 5px;
+	display: inline-block;
+	background: linear-gradient(90deg, #5692CE, #37C3A6);
+}
+.landing-section
+.link-section
+.btn-left:hover a {
+	color: silver;
+	transition: all 0.5s ease;
+}
+.landing-section
+.link-section
+.btn-right:hover a {
+	color: silver;
+	transition: all 0.5s ease;
+}
+.ldn-img{
+	padding-top: 10%;
+
+}
+.ldn-img img{
+	width: 100%;
+}
+@media only screen and (max-width: 576px) {
+	.landing-section {
+		text-align: center;
+	}
+}
+/*cmp logo section*/
+.cmp-logo{
+	padding-top: 5%;
+}
+.cmp-logo h2{
+	text-align: center;
+    color: #3ABEAA;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 2.5%;
+    font-family: 'Nova Square', sans-serif;
+}
+.cmp-logo .datadog{
+	float: left;
+	color: #642EA2;
+	font-weight: bold;
+
+}
+.cmp-logo .datadog img{
+	width: 40px;
+}
+.cmp-logo .datadog img:hover{
+
+}
+.cmp-logo .ansible{
+	float: right;
+	color: ;
+	font-weight: bold;
+}
+.cmp-logo .ansible img{
+	width: 40px;
+}
+.cmp-logo .ansible img:hover{
+
+}
+.cmp-logo .openstack{
+	text-align: center;
+	color: #D1018C;
+	font-weight: bold;
+}
+.cmp-logo .openstack img{
+	width: 40px;
+}
+.cmp-logo .openstack img:hover{
+
+}
+
+.cmp-logo .kubernstac{
+	float: left;
+	color: #316CE5;
+	font-weight: bold;
+}
+.cmp-logo .kubernstac img{
+	width: 50px;
+	display: inline-block;
+}
+.cmp-logo .kubernstac img:hover{
+
+}
+.cmp-logo .ceph{
+	float: right;
+	color: #F05C56;
+	font-weight: bold;
+}
+.cmp-logo .ceph img{
+	width: 40px;
+	display: inline-block;
+}
+.cmp-logo .ceph img:hover{
+
+}
+/*-- Service section --*/
+.service-sec {
+	padding: 10% 0;
+	background: linear-gradient(90deg, #2C92A7, #35B791);
+}
+.service-sec img{
+	width: 100%;
+	border-radius: 5px;
+}
+.service-sec h2{
+	text-align: center;
+	font-weight: bold;
+	color: #fff;
+}
+.service-sec p{
+	text-align: center;
+	color: #ddd;
+	padding-bottom: 2.5%;
+	border-bottom: 1px solid #A6A6A6;
+}
+.service-sec .ser-img,.ser-dtl{
+	padding-top: 10%;
+}
+.service-sec
+.ser-dtl{
+	padding-top: 25%;
+}
+.service-sec
+.ser-img,.ser-dtl p{
+	text-align: justify;
+	border: none;
+}
+/* cloud section */
+.cld-sec{
+	text-align: center;
+	background-color: #ECF1FB;
+}
+/*-- Cloud service left section --*/
+.cld-ser-left{
+	text-align: center;
+	border-radius: 15px;
+	padding-bottom: 15px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.cld-ser-left .heading,.pragraph,.left-link {
+	color: #333;
+}
+.cld-ser-left-item {
+    padding: 15px 0;
+    background: #FFF;
+    border-radius: 15px 15px 0 0;
+}
+.cld-ser-left-layer {
+	padding: 30px 0;
+}
+.cld-ser-left-layer .btn-dgn {
+	border: none;
+	background: transparent;
+}
+.cld-ser-left-layer .btn-dgn:hover {
+	padding: 7.5px 15px;
+	border-radius: 50px;
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.cld-ser-left-layer .btn-dgn:hover a{
+	text-decoration: none;
+}
+/*-- Cloud service mid section --*/
+.cld-ser-mid{
+	text-align: center;
+}
+.cld-ser-mid h2{
+	font-weight: bold;
+	color: #34B493;
+	font-size: 20px;
+}
+.cld-ser-mid p{
+	font-weight: bold;
+	color: #606060;
+	font-size: 20px;
+}
+.cld-ser-mid img{
+	width: 100%;
+	border-radius: 5px;
+}
+/*-- Cloud service right section --*/
+.cld-ser-right {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	border-radius: 15px;
+	background-color: #267AB6;
+}
+.cld-ser-right .heading,.pragraph,.right-link {
+	margin: 0;
+	padding: 0;
+	color: #FFF !important;
+}
+.cld-ser-right
+.cld-ser-right-item {
+	color: #FFF;
+	padding: 15px 0;
+	background: rgba(255, 255, 255, 0.2);
+}
+.cld-ser-right
+.cld-ser-right-layer {
+	padding: 25% 0;
+}
+.cld-ser-right-layer .btn-dgn {
+	border: none;
+	background: transparent;
+}
+.cld-ser-right-layer .btn-dgn:hover {
+	padding: 7.5px 15px;
+	border-radius: 50px;
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.cld-ser-right-layer .btn-dgn:hover a{
+	text-decoration: none;
+}
+@media only screen and (max-width: 576px) {
+	.cld-ser-mid {
+		margin: 30px 0;
+	}
+}
+/*-- Customer Review --*/
+.cld-cus-cart{
+	text-align: left;
+	margin-bottom: 5%;	
+    padding-top: 5%;
+    padding-left: 5%;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.cld-cus-cart .checked{
+	color: orange;
+}
+.cld-cus-cart p{
+	padding-top: 25%;
+	padding-bottom: 5%;
+}
+.cus-det{
+	padding-bottom: 10%;
+}
+.cus-det img{
+	width: 55px;
+	float: left;
+	border-radius: 50px;
+	margin-right: 5%;
+}
+.cus-det h2{
+	font-weight: bold;
+	font-size: 15px;
+	padding-left: 20px;
+	padding-top: 10px;
+}
+.cus-det span{
+	font-weight: 400;
+	font-size: 13px;
+	color: #606060;
+}
+/*-- Contact section --*/
+.Contact{
+	color: #fff;
+	width: 100%;
+	padding: 10%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url(image/bckimg.jpg);
+}
+.Contact .btn-left,.btn-right {
+	border: none;
+	font-weight: 600;
+	border-radius: 4px;
+	padding: 7.5px 15px;
+	margin: 0 5px;
+}
+.Contact .btn-left a {
+	color: #FFF;
+}
+.Contact .btn-right a {
+	color: #FFF;
+}
+.Contact .btn-left {
+	background: linear-gradient(90deg, #36C1A9, #057BE2);
+}
+.Contact .btn-right {
+	background: transparent;
+	border: 1px solid #3AC7A3;
+}
+.Contact .btn-left,.btn-right:hover {
+	color: silver;
+	transition: all 0.5s ease;
+}
+.Contact .btn-left:hover {
+	background: transparent;
+	border: 1px solid #3AC7A3;
+}
+.Contact .btn-right:hover {
+	border: none;
+	background: linear-gradient(90deg, #36C1A9, #057BE2);
+}
+@media only screen and (max-width: 576px) {
+	.Contact {
+		text-align: center;
+	}
+}
+/*-- Footer section --*/
+.ftr-sec{
+	background: linear-gradient(90deg, #2E9BA2, #33B095);
+	color: #fff;
+	text-align: center;
+}
+.ftr-sec .bnd-logo-name{
+	font-weight: 500;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+.ftr-sec
+.bnd-logo-name
+img{
+	width: 50px;
+}
+.ftr-sec .copy-right{
+	border-top: 1px solid #ddd;
+	text-align: center;
+	font-family: italic;
+	font-size: 18px;
+}
+.ftr-sec .copy-right p{
+	margin: 5px 0;
+}
